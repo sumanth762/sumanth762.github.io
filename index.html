@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Portfolio Templates</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="HTML5, web tempplates">
+<meta name="Description" content="Portfolio templates for personal websites">
+<style>
+    ul.horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    ul.horizontal li {
+        float: left;
+    }
+    
+    ul.horizontal li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    ul.horizontal li a:hover:not(.active) {
+        background-color: #000;
+    }
+    
+    /* ul.horizontal li a.active {
+        background-color:#04AA6D;
+    } */
+    
+    ul.gray {
+    border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+    
+    ul.gray li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    ul.gray li a:hover:not(.active) {
+        background-color: #ddd;
+    }
+    
+    /* ul.gray li a.active {
+        color: white;
+        background-color: #008CBA;
+    } */
+
+    </style>
 </head>
-<body> 
-    SUMANTH
+<body>
+    <div>
+        <p>Check out the following templates</p>
+        <ul class="horizontal gray">
+            <li><a href="./web-dev/index.html">web-dev</a></li>
+            <li><a href="./astral/index.html">astral</a></li>
+            <li><a href="./hyperspace/index.html">hyperspace</a></li>
+            <li><a href="./paradigm-shift/index.html">paradigm-shift</a></li>
+            <li><a href="./stellar/index.html">stellar</a></li>
+            <li><a href="./strata/index.html">strata</a></li>
+        </ul>
+        </div>
 </body>
 </html>
